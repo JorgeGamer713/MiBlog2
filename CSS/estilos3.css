@@ -1,0 +1,46 @@
+.pie-de-pagina{
+    border: .5px dashed black;
+    text-align: center;
+    padding: 10PX 30px;
+    margin: 20;
+}
+/*  #parrafo1{
+    font-size: 20px;
+    color: green;
+    border: 1px solid black;
+}  */
+#comentarios1{
+    font-size: 25px;
+    text-align: right;
+}
+p,h1,li{
+    color: red
+}
+hgroup h2{
+    color: pink;
+}
+article>p{
+    text-align: center;
+    color: black;
+    
+}
+image+p{
+    border: 3px dashed black;
+}
+li:nth-child(3){
+    font-size: 40px;
+    color: aquamarine;
+}
+a:hover{
+    color: yellowgreen;
+}
+a:visited{
+    color: red;
+}
+a:link{
+    color: blue;
+}
+p::first-letter{
+    color: aquamarine;
+    font-size: 20px;
+}
